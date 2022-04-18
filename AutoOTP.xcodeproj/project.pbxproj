@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1C57694280D2BED00DBFFD7 /* AutoOTPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C57693280D2BED00DBFFD7 /* AutoOTPApp.swift */; };
+		C1C57696280D2BED00DBFFD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C57695280D2BED00DBFFD7 /* ContentView.swift */; };
+		C1C57698280D2BEE00DBFFD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C57697280D2BEE00DBFFD7 /* Assets.xcassets */; };
+		C1C5769B280D2BEE00DBFFD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C5769A280D2BEE00DBFFD7 /* Preview Assets.xcassets */; };
+		C1C576A5280D2BEE00DBFFD7 /* AutoOTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C576A4280D2BEE00DBFFD7 /* AutoOTPTests.swift */; };
+		C1C576AF280D2BEF00DBFFD7 /* AutoOTPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C576AE280D2BEF00DBFFD7 /* AutoOTPUITests.swift */; };
+		C1C576B1280D2BEF00DBFFD7 /* AutoOTPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C576B0280D2BEF00DBFFD7 /* AutoOTPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C576A1280D2BEE00DBFFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C57688280D2BED00DBFFD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C5768F280D2BED00DBFFD7;
+			remoteInfo = AutoOTP;
+		};
+		C1C576AB280D2BEE00DBFFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C57688280D2BED00DBFFD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C5768F280D2BED00DBFFD7;
+			remoteInfo = AutoOTP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1C57690280D2BED00DBFFD7 /* AutoOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C57693280D2BED00DBFFD7 /* AutoOTPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOTPApp.swift; sourceTree = "<group>"; };
+		C1C57695280D2BED00DBFFD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1C57697280D2BEE00DBFFD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1C5769A280D2BEE00DBFFD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1C576A0280D2BEE00DBFFD7 /* AutoOTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoOTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C576A4280D2BEE00DBFFD7 /* AutoOTPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOTPTests.swift; sourceTree = "<group>"; };
+		C1C576AA280D2BEE00DBFFD7 /* AutoOTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoOTPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C576AE280D2BEF00DBFFD7 /* AutoOTPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOTPUITests.swift; sourceTree = "<group>"; };
+		C1C576B0280D2BEF00DBFFD7 /* AutoOTPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOTPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C5768D280D2BED00DBFFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C5769D280D2BEE00DBFFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C576A7280D2BEE00DBFFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1C57687280D2BED00DBFFD7 = {
+			isa = PBXGroup;
+			children = (
+				C1C57692280D2BED00DBFFD7 /* AutoOTP */,
+				C1C576A3280D2BEE00DBFFD7 /* AutoOTPTests */,
+				C1C576AD280D2BEE00DBFFD7 /* AutoOTPUITests */,
+				C1C57691280D2BED00DBFFD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C57691280D2BED00DBFFD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C57690280D2BED00DBFFD7 /* AutoOTP.app */,
+				C1C576A0280D2BEE00DBFFD7 /* AutoOTPTests.xctest */,
+				C1C576AA280D2BEE00DBFFD7 /* AutoOTPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C57692280D2BED00DBFFD7 /* AutoOTP */ = {
+			isa = PBXGroup;
+			children = (
+				C1C57693280D2BED00DBFFD7 /* AutoOTPApp.swift */,
+				C1C57695280D2BED00DBFFD7 /* ContentView.swift */,
+				C1C57697280D2BEE00DBFFD7 /* Assets.xcassets */,
+				C1C57699280D2BEE00DBFFD7 /* Preview Content */,
+			);
+			path = AutoOTP;
+			sourceTree = "<group>";
+		};
+		C1C57699280D2BEE00DBFFD7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1C5769A280D2BEE00DBFFD7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1C576A3280D2BEE00DBFFD7 /* AutoOTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C576A4280D2BEE00DBFFD7 /* AutoOTPTests.swift */,
+			);
+			path = AutoOTPTests;
+			sourceTree = "<group>";
+		};
+		C1C576AD280D2BEE00DBFFD7 /* AutoOTPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C576AE280D2BEF00DBFFD7 /* AutoOTPUITests.swift */,
+				C1C576B0280D2BEF00DBFFD7 /* AutoOTPUITestsLaunchTests.swift */,
+			);
+			path = AutoOTPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1C5768F280D2BED00DBFFD7 /* AutoOTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C576B4280D2BEF00DBFFD7 /* Build configuration list for PBXNativeTarget "AutoOTP" */;
+			buildPhases = (
+				C1C5768C280D2BED00DBFFD7 /* Sources */,
+				C1C5768D280D2BED00DBFFD7 /* Frameworks */,
+				C1C5768E280D2BED00DBFFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoOTP;
+			productName = AutoOTP;
+			productReference = C1C57690280D2BED00DBFFD7 /* AutoOTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C5769F280D2BEE00DBFFD7 /* AutoOTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C576B7280D2BEF00DBFFD7 /* Build configuration list for PBXNativeTarget "AutoOTPTests" */;
+			buildPhases = (
+				C1C5769C280D2BEE00DBFFD7 /* Sources */,
+				C1C5769D280D2BEE00DBFFD7 /* Frameworks */,
+				C1C5769E280D2BEE00DBFFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C576A2280D2BEE00DBFFD7 /* PBXTargetDependency */,
+			);
+			name = AutoOTPTests;
+			productName = AutoOTPTests;
+			productReference = C1C576A0280D2BEE00DBFFD7 /* AutoOTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1C576A9280D2BEE00DBFFD7 /* AutoOTPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C576BA280D2BEF00DBFFD7 /* Build configuration list for PBXNativeTarget "AutoOTPUITests" */;
+			buildPhases = (
+				C1C576A6280D2BEE00DBFFD7 /* Sources */,
+				C1C576A7280D2BEE00DBFFD7 /* Frameworks */,
+				C1C576A8280D2BEE00DBFFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C576AC280D2BEE00DBFFD7 /* PBXTargetDependency */,
+			);
+			name = AutoOTPUITests;
+			productName = AutoOTPUITests;
+			productReference = C1C576AA280D2BEE00DBFFD7 /* AutoOTPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C57688280D2BED00DBFFD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C1C5768F280D2BED00DBFFD7 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C1C5769F280D2BEE00DBFFD7 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C1C5768F280D2BED00DBFFD7;
+					};
+					C1C576A9280D2BEE00DBFFD7 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C1C5768F280D2BED00DBFFD7;
+					};
+				};
+			};
+			buildConfigurationList = C1C5768B280D2BED00DBFFD7 /* Build configuration list for PBXProject "AutoOTP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1C57687280D2BED00DBFFD7;
+			productRefGroup = C1C57691280D2BED00DBFFD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1C5768F280D2BED00DBFFD7 /* AutoOTP */,
+				C1C5769F280D2BEE00DBFFD7 /* AutoOTPTests */,
+				C1C576A9280D2BEE00DBFFD7 /* AutoOTPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C5768E280D2BED00DBFFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C5769B280D2BEE00DBFFD7 /* Preview Assets.xcassets in Resources */,
+				C1C57698280D2BEE00DBFFD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C5769E280D2BEE00DBFFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C576A8280D2BEE00DBFFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C5768C280D2BED00DBFFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C57696280D2BED00DBFFD7 /* ContentView.swift in Sources */,
+				C1C57694280D2BED00DBFFD7 /* AutoOTPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C5769C280D2BEE00DBFFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C576A5280D2BEE00DBFFD7 /* AutoOTPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C576A6280D2BEE00DBFFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C576AF280D2BEF00DBFFD7 /* AutoOTPUITests.swift in Sources */,
+				C1C576B1280D2BEF00DBFFD7 /* AutoOTPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C576A2280D2BEE00DBFFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C5768F280D2BED00DBFFD7 /* AutoOTP */;
+			targetProxy = C1C576A1280D2BEE00DBFFD7 /* PBXContainerItemProxy */;
+		};
+		C1C576AC280D2BEE00DBFFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C5768F280D2BED00DBFFD7 /* AutoOTP */;
+			targetProxy = C1C576AB280D2BEE00DBFFD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1C576B2280D2BEF00DBFFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1C576B3280D2BEF00DBFFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1C576B5280D2BEF00DBFFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AutoOTP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blur1379.AutoOTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1C576B6280D2BEF00DBFFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AutoOTP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blur1379.AutoOTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1C576B8280D2BEF00DBFFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blur1379.AutoOTPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoOTP.app/AutoOTP";
+			};
+			name = Debug;
+		};
+		C1C576B9280D2BEF00DBFFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blur1379.AutoOTPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoOTP.app/AutoOTP";
+			};
+			name = Release;
+		};
+		C1C576BB280D2BEF00DBFFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blur1379.AutoOTPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoOTP;
+			};
+			name = Debug;
+		};
+		C1C576BC280D2BEF00DBFFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blur1379.AutoOTPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutoOTP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1C5768B280D2BED00DBFFD7 /* Build configuration list for PBXProject "AutoOTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C576B2280D2BEF00DBFFD7 /* Debug */,
+				C1C576B3280D2BEF00DBFFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C576B4280D2BEF00DBFFD7 /* Build configuration list for PBXNativeTarget "AutoOTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C576B5280D2BEF00DBFFD7 /* Debug */,
+				C1C576B6280D2BEF00DBFFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C576B7280D2BEF00DBFFD7 /* Build configuration list for PBXNativeTarget "AutoOTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C576B8280D2BEF00DBFFD7 /* Debug */,
+				C1C576B9280D2BEF00DBFFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C576BA280D2BEF00DBFFD7 /* Build configuration list for PBXNativeTarget "AutoOTPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C576BB280D2BEF00DBFFD7 /* Debug */,
+				C1C576BC280D2BEF00DBFFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1C57688280D2BED00DBFFD7 /* Project object */;
+}
