@@ -14,6 +14,8 @@
 		C1C576A5280D2BEE00DBFFD7 /* AutoOTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C576A4280D2BEE00DBFFD7 /* AutoOTPTests.swift */; };
 		C1C576AF280D2BEF00DBFFD7 /* AutoOTPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C576AE280D2BEF00DBFFD7 /* AutoOTPUITests.swift */; };
 		C1C576B1280D2BEF00DBFFD7 /* AutoOTPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C576B0280D2BEF00DBFFD7 /* AutoOTPUITestsLaunchTests.swift */; };
+		C1C576BE280D2C6B00DBFFD7 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C576BD280D2C6B00DBFFD7 /* Verification.swift */; };
+		C1C576C2280D3CA200DBFFD7 /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C576C1280D3CA200DBFFD7 /* OTPViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C1C576AA280D2BEE00DBFFD7 /* AutoOTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoOTPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C576AE280D2BEF00DBFFD7 /* AutoOTPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOTPUITests.swift; sourceTree = "<group>"; };
 		C1C576B0280D2BEF00DBFFD7 /* AutoOTPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoOTPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1C576BD280D2C6B00DBFFD7 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		C1C576C1280D3CA200DBFFD7 /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		C1C57692280D2BED00DBFFD7 /* AutoOTP */ = {
 			isa = PBXGroup;
 			children = (
+				C1C576C0280D3C0700DBFFD7 /* ViewModel */,
+				C1C576BF280D2C8400DBFFD7 /* View */,
 				C1C57693280D2BED00DBFFD7 /* AutoOTPApp.swift */,
 				C1C57695280D2BED00DBFFD7 /* ContentView.swift */,
 				C1C57697280D2BEE00DBFFD7 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				C1C576B0280D2BEF00DBFFD7 /* AutoOTPUITestsLaunchTests.swift */,
 			);
 			path = AutoOTPUITests;
+			sourceTree = "<group>";
+		};
+		C1C576BF280D2C8400DBFFD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1C576BD280D2C6B00DBFFD7 /* Verification.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1C576C0280D3C0700DBFFD7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1C576C1280D3CA200DBFFD7 /* OTPViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C576C2280D3CA200DBFFD7 /* OTPViewModel.swift in Sources */,
+				C1C576BE280D2C6B00DBFFD7 /* Verification.swift in Sources */,
 				C1C57696280D2BED00DBFFD7 /* ContentView.swift in Sources */,
 				C1C57694280D2BED00DBFFD7 /* AutoOTPApp.swift in Sources */,
 			);
@@ -433,7 +457,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
